@@ -10,8 +10,10 @@ Just download and double-click .exe file !!!
 
 # How to Use
 1. RomaKey has no GUI.
-2. Double-click .exe file.
+2. Double-click .exe file to start RomaKey to type in telugu.
 3. An icon will appear in system tray.
 4. Press F11 key to pause RomaKey momentarily.
 5. Press F11 again to resume RomaKey.
 6. Just right-click system tray icon and click exit to close the program.
+
+Note : You will need Anu Script Fonts installed to type in telugu (Link will be provided soon).
