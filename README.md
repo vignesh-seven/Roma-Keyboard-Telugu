@@ -17,3 +17,5 @@ Just download and double-click .exe file !!!
 6. Just right-click system tray icon and click exit to close the program.
 
 Note : You will need Anu Script Fonts installed to type in telugu (Link will be provided soon).
+
+#Detailed How-to-use guide coming soon... :)
