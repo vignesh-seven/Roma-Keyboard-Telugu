@@ -1594,6 +1594,21 @@ update_from_internet() {
 			TrayTip, Update Complete, Updated to Latest Version, 5,
 		}
 ;
+
+;
+;
+;		"Other Program Shortcuts"
+;
+;
+; PageMaker PAN And Zoon Functionality
+if WinActive("ahk_exe Pm70.exe") {
+MButton::!LButton
+return
+^WheelDown::^-
+return
+^WheelUp::^=
+return
+}
 ;   "Controls"
 ;
 ;
