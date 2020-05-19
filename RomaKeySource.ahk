@@ -179,9 +179,9 @@ return
 z::
 send {text}+
 return
-`::
-send {text}×
-return
+; `::
+; send {text}×
+; return
 \::
 send {text}×
 return
@@ -1593,13 +1593,22 @@ update_from_internet() {
 			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hash.txt
 			TrayTip, Update Complete, Updated to Latest Version, 5,
 		}
-;
 
 ;
 ;
 ;		"Other Program Shortcuts"
 ;
 ;
+;
+
+;
+;		"Hold Down ` Key to pause and release to Resume"
+;
+
+`::Suspend, On
+
+` Up::Suspend, Off
+
 ; PageMaker PAN And Zoon Functionality
 if WinActive("ahk_exe Pm70.exe") {
 MButton::!LButton
