@@ -3,12 +3,13 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+#InstallMouseHook ; This prevents the key being sent if you shift + mouse click.
+#HotkeyInterval 1000000000
+#MaxHotkeysPerInterval 1000000000
+
 updateFunction()
 return
 
-
-#HotkeyInterval 1000000000
-#MaxHotkeysPerInterval 1000000000
 #z::ExitApp
 return
 #d::#d
@@ -1605,9 +1606,9 @@ update_from_internet() {
 ;		"Hold Down ` Key to pause and release to Resume"
 ;
 
-`::Suspend, On
+~::Suspend, On
 
-` Up::Suspend, Off
+~ Up::Suspend, Off
 
 ; PageMaker PAN And Zoon Functionality
 if WinActive("ahk_exe Pm70.exe") {
