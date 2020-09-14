@@ -10,8 +10,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 updateFunction()
 return
 
-IfNotExist, update.bat
-    MsgBox, The target file does not exist.
 
 #z::ExitApp
 return
@@ -1595,6 +1593,7 @@ updateFunction() {
 update_from_internet() {
 			UrlDownloadToFile, https://github.com/Vignesh-Vin/RomaKey/raw/master/RomaKey.exe, RomaKeyNew.exe
 			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hash.txt
+			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/Roma-Keyboard-Telugu/master/update.bat, update.bat
 			RunWait, update.bat, , Hide,
 			TrayTip, Update Complete, Updated to Latest Version, 5,
 		}
