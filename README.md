@@ -19,3 +19,10 @@ Just download and double-click .exe file !!!
 Note : You will need Anu Script Fonts installed to type in telugu (Link will be provided soon).
 
 # Detailed How-to-use guide coming soon... :)
+
+#Contribtution
+Well, nothing special.
+Just create an issue for anything (feature requests, bugs etc.).
+And make a pull request.
+
+Please don't expect a fast response from me.
