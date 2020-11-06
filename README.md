@@ -20,7 +20,7 @@ Note : You will need Anu Script Fonts installed to type in telugu (Link will be 
 
 # Detailed How-to-use guide coming soon... :)
 
-#Contribtution
+# Contribtution
 Well, nothing special.
 Just create an issue for anything (feature requests, bugs etc.).
 And make a pull request.
