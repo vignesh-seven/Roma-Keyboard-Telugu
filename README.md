@@ -3,15 +3,13 @@ Romic Keyboard for Typing in Telugu
 
 This is a small program for telugu typing on Windows PC' without needing Anu Script or Google Input Tools
 RomaKey is based on Romic Keyboard layout from Anu Script Manager.
-But this is faster, simpler, and uses less resources
+But this is faster, simpler, and uses less resources.
 
 # Installation
 Just download and double-click .exe file !!!
 
 For fonts click http://www.mediafire.com/file/lx2f701urrfeizj/Telugu_Fonts.zip/file
-
 Download and extract this file.
-
 Install the exe file.
 
 # How to Use
