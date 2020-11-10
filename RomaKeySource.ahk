@@ -1590,21 +1590,22 @@ updateLabel:
 			}
 			if (hash == hashnew) {
 				TrayTip, No Update Needed, RomaKey is already Latest Version %currentVer%, 5,
+				}
 			}
-			
-			FileDelete, hashnew.txt
-	}
-	if (hashnew == null) {
-		TrayTip, Updates Unavailable, No Internet, 3,
-	}
+		if (hashnew == null) {
+			TrayTip, Updates Unavailable, No Internet, 3,
+		}
+	FileDelete, hashnew.txt
 return
 
 update_from_internet() {
-			UrlDownloadToFile, https://github.com/Vignesh-Vin/RomaKey/raw/master/RomaKey.exe, RomaKey.exe
+			UrlDownloadToFile, https://github.com/Vignesh-Vin/RomaKey/raw/master/RomaKey.exe, RomaKeyNew.exe
 			FileDelete, hash.txt
 			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hash.txt
-			FileReadLine, newVersion, hashnew.txt, 2
-			TrayTip, Update Successfull !, RomaKey is now %newVersion%, 5,
+			FileReadLine, newVersion, hash.txt, 2
+			TrayTip, Update Successfull!, RomaKey is now %newVersion%, 5,
+			Run, update.bat
+			ExitApp
 		}
 fetchUpdate() {
 		UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hashnew.txt
@@ -1617,7 +1618,7 @@ fetchUpdate() {
 				TrayTip, Update Available, Double-click icon to update to %newVersion% `nCurrent Version is %currentVer%, 5,
 			}
 			if (hash == hashnew) {
-				TrayTip, No Update Needed, RomaKey is already Latest Version, 5,
+				TrayTip, Latest Version, RomaKey is already Latest Version, 5,
 			}
 			
 			FileDelete, hashnew.txt

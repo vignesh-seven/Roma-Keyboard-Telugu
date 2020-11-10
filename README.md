@@ -8,6 +8,8 @@ But this is faster, simpler, and uses less resources
 # Installation
 Just download and double-click .exe file !!!
 
+For fonts click http://www.mediafire.com/file/lx2f701urrfeizj/Telugu_Fonts.zip/file
+
 # How to Use
 1. RomaKey has no GUI.
 2. Double-click .exe file to start RomaKey to type in telugu.
