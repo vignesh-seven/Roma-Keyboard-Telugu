@@ -9,7 +9,9 @@ But this is faster, simpler, and uses less resources
 Just download and double-click .exe file !!!
 
 For fonts click http://www.mediafire.com/file/lx2f701urrfeizj/Telugu_Fonts.zip/file
+
 Download and extract this file.
+
 Install the exe file.
 
 # How to Use
@@ -20,7 +22,7 @@ Install the exe file.
 5. Press F11 again to resume RomaKey.
 6. Just right-click system tray icon and click exit to close the program.
 
-Note : You will need Anu Script Fonts installed to type in telugu (Link will be provided soon).
+Note : You will need Anu Script Fonts installed to type in telugu (See Installation Section).
 
 # Detailed How-to-use guide coming soon... :)
 
