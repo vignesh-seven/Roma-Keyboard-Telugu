@@ -9,6 +9,8 @@ But this is faster, simpler, and uses less resources
 Just download and double-click .exe file !!!
 
 For fonts click http://www.mediafire.com/file/lx2f701urrfeizj/Telugu_Fonts.zip/file
+Download and extract this file.
+Install the exe file.
 
 # How to Use
 1. RomaKey has no GUI.
