@@ -1599,7 +1599,7 @@ updateLabel:
 return
 
 update_from_internet() {
-			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/Roma-Keyboard-Telugu/master/update.bat update.bat
+			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/Roma-Keyboard-Telugu/master/update.bat, update.bat
 			UrlDownloadToFile, https://github.com/Vignesh-Vin/RomaKey/raw/master/RomaKey.exe, RomaKeyNew.exe
 			FileDelete, hash.txt
 			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hash.txt
