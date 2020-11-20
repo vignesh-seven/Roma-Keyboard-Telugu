@@ -1486,9 +1486,15 @@ return
 return
 :?C*:XI::{text}¿Œ¡ˆ
 return
+:?C*:Xu::{text}¿£Œ”
+return
+:?C*:XU::{text}¿£ŒL
+return
 :?C*:XE::{text}¹¿Œ
 return
 :?C*:Xe::{text}Â¿Œ
+return
+:?C*:X\::{text}Â¿ÕŒ
 return
 :?C*:XA::{text}¿Œ±
 return
@@ -1497,6 +1503,8 @@ return
 :?C*:Xo::{text}¿=
 return
 :?C*:XO::{text}¿Ã
+return
+:?C*:XV::{text}¿Œš
 return
 
 ;
