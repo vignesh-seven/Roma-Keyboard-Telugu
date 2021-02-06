@@ -1666,5 +1666,3 @@ Reload
 return
 !q::
 ExitApp
-
-;	BETA FEATURES HEHEHEHEHEHE
