@@ -29,4 +29,4 @@ Well, nothing special.
 Just create an issue for anything (feature requests, bugs etc.).
 And make a pull request.
 
-Please don't expect a fast response from me.
+Please don't expect a quick response from me.
