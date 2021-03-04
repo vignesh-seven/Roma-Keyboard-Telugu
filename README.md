@@ -25,6 +25,6 @@ Note : You will need Anu Script Fonts installed to type in telugu (See Installat
 # Detailed How-to-use guide coming soon... :)
 
 # Contribtution
-Please don't expect a quick response from me.
+No
 
 Note: If you are editing the source code, use only AutoHotKey 1.1.30.02 because it's not working correctly with newer versions.
