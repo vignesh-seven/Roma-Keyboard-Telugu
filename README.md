@@ -12,7 +12,6 @@ RomaKey is based on Romic Keyboard layout from Anu Script Manager.
 But this is faster, simpler, and uses less resources.
 
 # Installation
-Download and run the .exe as administrator.
 
 Download Fonts from [here](https://www.mediafire.com/file/ymxu94b2jd5jogd/Telugu+Fonts.exe/file)
 
