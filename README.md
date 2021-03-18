@@ -6,8 +6,8 @@ RomaKey is based on Romic Keyboard layout from Anu Script Manager.
 
 ### Why RomaKey instead of Anu Script Manager
  - RomaKey uses very little resources on your system.
- - It is faster and opens up in no time.
- - It is Simpler to use.
+ - It is faster (way faster actually).
+ - It's open-source (If that matters to you).
 
 But this is faster, simpler, and uses less resources.
 
