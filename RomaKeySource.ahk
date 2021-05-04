@@ -277,6 +277,17 @@ return
 +'::
 send {text}µµ
 return
+; (::
+; send {text}()
+; send {Left}
+; Return
+(::
+send {text}(
+KeyWait, Tab, D
+send {text})
+send {Left}{BackSpace}{Right}
+Return
+
 ; [::
 ; send {Tab}
 ; return
@@ -329,7 +340,7 @@ return
 ;
 ;
 ;		"Q" Gunimtam
-;	
+;
 ;
 :?C*:Qa::{Backspace 2}{text}sÄ
 return
@@ -364,7 +375,7 @@ return
 :?C*:QF::{Backspace 2}{text}sÄY
 return
 ;
-;		
+;
 ;		"w" Gunimtam
 ;
 ;
@@ -1591,9 +1602,9 @@ updateLabel:
 		if (hashnew != null) {
 			if (hash != hashnew) {
 				MsgBox, 4, Update Available, Do you want to update RomaKey to %newVersion% `nCurrent Version is %currentVer%
-				IfMsgBox, Yes 
+				IfMsgBox, Yes
 					update_from_internet()
-				IfMsgBox, No 
+				IfMsgBox, No
 					TrayTip, Update Cancelled, Update Cancelled by User, 5,
 			}
 			if (hash == hashnew) {
@@ -1629,7 +1640,7 @@ fetchUpdate() {
 			if (hash == hashnew) {
 				TrayTip, Latest Version, RomaKey is already Latest Version, 5,
 			}
-			
+
 			FileDelete, hashnew.txt
 	}
 	if (hashnew == null) {
@@ -1644,15 +1655,13 @@ Return
 ;		"Other Program Shortcuts"
 ;
 ;
-; PageMaker PAN And Zoon Functionality
+; PageMaker PAN Functionality
 if WinActive("ahk_exe Pm70.exe") {
 MButton::!LButton
 return
-^WheelDown::^-
-return
-^WheelUp::^=
-return
 }
+
+
 ;
 ;   "Controls"
 ;
