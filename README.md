@@ -26,6 +26,7 @@ Extract the fonts to your fonts directory (C:/Windows/fonts).
 3. Run the RomaKey.exe as administrator to start typing in telugu.
 
 Note: You also need to start the program you are typing in as administrator eg. Photoshop, Word, WordPad etc.
+
 4. An icon will appear in system tray.
 5. Press F11 key to pause RomaKey and type in English as usual.
 6. Press F11 again to resume RomaKey.
