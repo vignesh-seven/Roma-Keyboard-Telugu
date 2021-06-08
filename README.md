@@ -12,6 +12,7 @@ RomaKey is based on Roma Keyboard layout from Anu Script Manager 7.0.
 # Installation
 
 Download Fonts from [here](https://www.mediafire.com/file/lgeheukr5wq3o66/Telugu_Fonts.zip/file)
+
 Note: It's a .zip file.
 
 Then Extract all file -> Select all files -> Right-click -> Install.
