@@ -3,14 +3,6 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; updateFunction()
-; return
-Menu, Tray, NoStandard
-Menu, Tray, Add, Update, updateLabel
-Menu, Tray, Add , Exit, ExitButton ;add a item named Exit that goes to the ButtonExit label
-Menu, Tray, Default, Update
-fetchUpdate()
-return
 
 #HotkeyInterval 1000000000
 #MaxHotkeysPerInterval 1000000000
@@ -281,13 +273,13 @@ return
 ; send {text}()
 ; send {Left}
 ; Return
-(::
+/* (::
 send {text}(
 KeyWait, Tab, D
 send {text})
 send {Left}{BackSpace}{Right}
 Return
-
+ */
 ; [::
 ; send {Tab}
 ; return
@@ -305,7 +297,7 @@ Return
 ;	"q" Gunimtam
 ;
 ;
-;
+
 :?C*:qa::{text}{²
 return
 :?C*:qi::{text}{ì
@@ -1585,81 +1577,9 @@ return
 :?C*:fm::{text}ˆ
 return
 
-
-;
-;
-;
-;        Auto - Update Functionality
-;
-;
-;
-updateLabel:
-		UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hashnew.txt
-		FileReadLine, hashnew, hashnew.txt, 1
-		FileReadLine, newVersion, hashnew.txt, 2
-		FileReadLine, hash, hash.txt, 1
-		FileReadLine, currentVer, hash.txt, 2
-		if (hashnew != null) {
-			if (hash != hashnew) {
-				MsgBox, 4, Update Available, Do you want to update RomaKey to %newVersion% `nCurrent Version is %currentVer%
-				IfMsgBox, Yes
-					update_from_internet()
-				IfMsgBox, No
-					TrayTip, Update Cancelled, Update Cancelled by User, 5,
-			}
-			if (hash == hashnew) {
-				TrayTip, No Update Needed, RomaKey is already Latest Version %currentVer%, 5,
-				}
-			}
-		if (hashnew == null) {
-			TrayTip, Updates Unavailable, No Internet, 3,
-		}
-	FileDelete, hashnew.txt
-return
-
-update_from_internet() {
-			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/Roma-Keyboard-Telugu/master/update.bat, update.bat
-			UrlDownloadToFile, https://github.com/Vignesh-Vin/RomaKey/raw/master/RomaKey.exe, RomaKeyNew.exe
-			FileDelete, hash.txt
-			UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hash.txt
-			FileReadLine, newVersion, hash.txt, 2
-			TrayTip, Update Successfull!, RomaKey is now %newVersion%, 5,
-			Run, update.bat
-			ExitApp
-		}
-fetchUpdate() {
-		UrlDownloadToFile, https://raw.githubusercontent.com/Vignesh-Vin/RomaKey/master/SHA256, hashnew.txt
-		FileReadLine, hashnew, hashnew.txt, 1
-		FileReadLine, newVersion, hashnew.txt, 2
-		FileReadLine, hash, hash.txt, 1
-		FileReadLine, currentVer, hash.txt, 2
-		if (hashnew != null) {
-			if (hash != hashnew) {
-				TrayTip, Update Available, Double-click icon to update to %newVersion% `nCurrent Version is %currentVer%, 5,
-			}
-			if (hash == hashnew) {
-				TrayTip, Latest Version, RomaKey is already Latest Version, 5,
-			}
-
-			FileDelete, hashnew.txt
-	}
-	if (hashnew == null) {
-		TrayTip, Updates Unavailable, No Internet, 3,
-	}
-}
 ExitButton:
 ExitApp
 Return
-;
-;
-;		"Other Program Shortcuts"
-;
-;
-; PageMaker PAN Functionality
-if WinActive("ahk_exe Pm70.exe") {
-MButton::!LButton
-return
-}
 
 
 ;
