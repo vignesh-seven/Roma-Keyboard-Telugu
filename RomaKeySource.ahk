@@ -7,13 +7,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #HotkeyInterval 1000000000
 #MaxHotkeysPerInterval 1000000000
 #z::ExitApp
-return
+Return
 #d::#d
-return
+Return
 !F4::!F4
-return
+Return
 ^c::^c
-return
+Return
 ;+Enter::
 
 ;
@@ -24,251 +24,251 @@ return
 ;
 q::
 send {text}f
-return
+Return
 
 +q::
 send {text}sÄÁ
-return
+Return
 w::
 send {text}&á
-return
+Return
 +w::
 send {text}&óƒ
-return
+Return
 e::
 send {text}m
-return
+Return
 +e::
 send {text}@
-return
+Return
 r::
 send {text}sá
-return
+Return
 +r::
 send {text}ç
-return
+Return
 t::
 send {text}Ôá
-return
+Return
 +t::
 send {text}<¸á
-return
+Return
 y::
 send {text}já§
-return
+Return
 +u::
 send {text}}
-return
+Return
 u::
 send {text}–
-return
+Return
 i::
 send {text}‚
-return
+Return
 +i::
 send {text}‡
-return
+Return
 o::
 send {text}ÿ
-return
+Return
 +o::
 send {text}z
-return
+Return
 p::
 send {text}|Ÿ
-return
+Return
 +p::
 send {text}|˜Ÿ
-return
+Return
 NumpadAdd::
 send {text}l
-return
+Return
 s::
 send {text}dŸ
-return
+Return
 +s::
 send {text}Xø
-return
+Return
 d::
 send {text}<Š
-return
+Return
 +d::
 send {text}<óŠ
-return
+Return
 f::
 send {text}Ê
-return
+Return
 g::
 send {text}>·
-return
+Return
 a::
 send {text}€
-return
+Return
 +a::
 send {text}n
-return
+Return
 +g::
 send {text}|˜ŸT
-return
+Return
 h::
 send {text}VŸ²
-return
+Return
 j::
 send {text}È
-return
+Return
 +j::
 send {text}sÁa
-return
+Return
 k::
 send {text}¿£
-return
+Return
 +k::
 send {text}K
-return
+Return
 l::
 send {text}\
-return
+Return
 +l::
 send {text}Þø
-return
+Return
 x::
 send {text}wŸ
-return
+Return
 +x::
 send {text}h
-return
+Return
 +z::
 send {text}g
-return
+Return
 c::
 send {text}#á
-return
+Return
 +c::
 send {text}#óá
-return
+Return
 v::
 send {text}e
-return
+Return
 +v::
 send {text}W
-return
+Return
 b::
 send {text}‹
-return
+Return
 +b::
 send {text}uó„
-return
+Return
 n::
 send {text}q
-return
+Return
 +n::
 send {text}D
-return
+Return
 m::
 send {text}eT
-return
+Return
 +y::
 send {text}ã
-return
+Return
 +m::
 send {text}+
-return
+Return
 z::
 send {text}+
-return
+Return
 `::
 send {text}×
-return
+Return
 \::
 send {text}×
-return
+Return
 ]::
 send {text}l
-return
+Return
 +2::
 send {text}²
-return
+Return
 +8::
 send {text}l
-return
+Return
 +7::
 send {text}ö
-return
+Return
 +3::
 send {text}
-return
+Return
 NumpadDiv::
 send {text}»»
-return
+Return
 NumpadMult::
 send {text}µµ
-return
+Return
 +-::
 send {text}ª
-return
+Return
 =::
 send {text}R
-return
+Return
 +=::
 send {text}G
-return
+Return
 +6::
 send {text}ð
-return
+Return
 ; ;::
 ; send {text}l
-; return
+; Return
 ; Tab & v::
 ; send {text}v
-; return
+; Return
 ; Tab & b::
 ; send {text}b
-; return
+; Return
 ; Tab & s::
 ; send {text}s
-; return
+; Return
 ; Tab & w::
 ; send {text}w
-; return
+; Return
 ; Tab & m::
 ; send {text}m
-; return
+; Return
 ; Tab & e::
 ; send {text}e
-; return
+; Return
 ; Tab & p::
 ; send {text}p
-; return
+; Return
 ; Tab & u::
 ; send {text}u
-; return
+; Return
 ; Tab & t::
 ; send {text}t
-; return
+; Return
 ; Tab & 2::
 ; send {text}‹TÖ
-; return
+; Return
 ; Tab & 3::
 ; send {text}‹TT
-; return
+; Return
 ; Tab & c::
 ; send {text}i
-; return
+; Return
 ; Tab & [::
 ; send {text}i
-; return
+; Return
 +[::
 send {text}À
-return
+Return
 +;::
 send {text}:
-return
+Return
 '::
 send {text}»»
-return
+Return
 +'::
 send {text}µµ
-return
+Return
 ; (::
 ; send {text}()
 ; send {Left}
@@ -282,7 +282,7 @@ Return
  */
 ; [::
 ; send {Tab}
-; return
+; Return
 
 ;
 ;   CCCCCCCCC  OOOOOOOOO  N       N  TTTTTTTTT  EEEEEEEEE  X       X  TTTTTTTTT
@@ -299,35 +299,35 @@ Return
 ;
 
 :?C*:qa::{text}{²
-return
+Return
 :?C*:qi::{text}{ì
-return
+Return
 :?C*:qI::{text}{¡
-return
+Return
 :?C*:q[::{text}{¡
-return
+Return
 :?C*:qu::{text}³T
-return
+Return
 :?C*:qU::{text}³Ö
-return
+Return
 :?C*:q'::{text}³Ö
-return
+Return
 :?C*:qe::{text}fÉ
-return
+Return
 :?C*:qE::{text}fñ
-return
+Return
 :?C*:q;::{text}fñ
-return
+Return
 :?C*:q\::{text}fÉ®
-return
+Return
 :?C*:qo::{text}{¤
-return
+Return
 :?C*:qO::{text}{Ë
-return
+Return
 :?C*:q]::{text}{Ë
-return
+Return
 :?C*:qV::{text}{…
-return
+Return
 :?C*:qF::{text}{Ù
 ;
 ;
@@ -335,1148 +335,1148 @@ return
 ;
 ;
 :?C*:Qa::{Backspace 2}{text}sÄ
-return
+Return
 :?C*:Qi::{Backspace 2}{text}]Ä
-return
+Return
 :?C*:QI::{Backspace 2}{text}¯Ä
-return
+Return
 :?C*:Q[::{Backspace 2}{text}¯Ä
-return
+Return
 :?C*:Qu::{Backspace 2}{text}sÄÁT
-return
+Return
 :?C*:QU::{Backspace 2}{text}sÄÁÖ
-return
+Return
 :?C*:Q'::{Backspace 2}{text}sÄÁÖ
-return
+Return
 :?C*:Qe::{Backspace 2}{text}ÂsÄ
-return
+Return
 :?C*:QE::{Backspace 2}{text}¹sÄ
-return
+Return
 :?C*:Q;::{Backspace 2}{text}¹sÄ
-return
+Return
 :?C*:Q\::{Backspace 2}{text}ÂsÄÕ
-return
+Return
 :?C*:Qo::{Backspace 2}{text}sÄ=
-return
+Return
 :?C*:QO::{Backspace 2}{text}sÄÃ
-return
+Return
 :?C*:Q]::{Backspace 2}{text}sÄÃ
-return
+Return
 :?C*:QV::{Backspace 2}{text}sÄš
-return
+Return
 :?C*:QF::{Backspace 2}{text}sÄY
-return
+Return
 ;
 ;
 ;		"w" Gunimtam
 ;
 ;
 :?C*:wa::{Backspace}{text}&†
-return
+Return
 :?C*:wi::{Backspace}{text}&
-return
+Return
 :?C*:wI::{Backspace}{text}&ž
-return
+Return
 :?C*:w[::{Backspace}{text}&ž
-return
+Return
 :?C*:wu::{Backspace}{text}&ƒT
-return
+Return
 :?C*:wU::{Backspace}{text}&ƒÖ
-return
+Return
 :?C*:w'::{Backspace}{text}&ƒÖ
-return
+Return
 :?C*:we::{Backspace}{text}&î
-return
+Return
 :?C*:wE::{Backspace}{text}&û
-return
+Return
 :?C*:w;::{Backspace}{text}&û
-return
+Return
 :?C*:w\::{Backspace}{text}&îÕ
-return
+Return
 :?C*:wo::{Backspace}{text}&=
-return
+Return
 :?C*:wO::{Backspace}{text}&Ã
-return
+Return
 :?C*:w]::{Backspace}{text}&Ã
-return
+Return
 :?C*:wV::{Backspace}{text}&ê
-return
+Return
 :?C*:wF::{Backspace}{text}&Ž
-return
+Return
 ;
 ;
 ;		"W" Gunimtam
 ;
 ;
 :?C*:Wa::{Backspace 2}{text}&ó†
-return
+Return
 :?C*:Wi::{Backspace 2}{text}&ó
-return
+Return
 :?C*:WI::{Backspace 2}{text}&óž
-return
+Return
 :?C*:W[::{Backspace 2}{text}&óž
-return
+Return
 :?C*:Wu::{Backspace 2}{text}&óƒT
-return
+Return
 :?C*:WU::{Backspace 2}{text}&óƒÖ
-return
+Return
 :?C*:W'::{Backspace 2}{text}&óƒÖ
-return
+Return
 :?C*:We::{Backspace 2}&óî
-return
+Return
 :?C*:WE::{Backspace 2}&óû
-return
+Return
 :?C*:W;::{Backspace 2}&óû
-return
+Return
 :?C*:W\::{Backspace 2}&óîÕ
-return
+Return
 :?C*:Wo::{Backspace 2}&ó=
-return
+Return
 :?C*:WO::{Backspace 2}&óÃ
-return
+Return
 :?C*:W]::{Backspace 2}&óÃ
-return
+Return
 :?C*:WV::{Backspace 2}&óê
-return
+Return
 :?C*:WF::{Backspace 2}{text}&óŽ
-return
+Return
 ;
 ;
 ;		"r" Gunimtam
 ;
 ;
 :?C*:ra::{Backspace}{text}s
-return
+Return
 :?C*:ri::{Backspace}{text}]
-return
+Return
 :?C*:rI::{Backspace}{text}¯
-return
+Return
 :?C*:r[::{Backspace}{text}¯
-return
+Return
 :?C*:ru::{Backspace}{text}sÁT
-return
+Return
 :?C*:rU::{Backspace}{text}sÁÖ
-return
+Return
 :?C*:r'::{Backspace}{text}sÁÖ
-return
+Return
 :?C*:re::{Backspace}{text}Âs
-return
+Return
 :?C*:rE::{Backspace}{text}¹s
-return
+Return
 :?C*:r;::{Backspace}{text}¹s
-return
+Return
 :?C*:r\::{Backspace}{text}ÂsÕ
-return
+Return
 :?C*:ro::{Backspace}{text}s=
-return
+Return
 :?C*:rO::{Backspace}{text}sÃ
-return
+Return
 :?C*:r]::{Backspace}{text}sÃ
-return
+Return
 :?C*:rV::{Backspace}{text}sš
-return
+Return
 :?C*:rF::{Backspace}{text}sY
-return
+Return
 ;
 ;
 ;		"t" Gunimtam
 ;
 ;
 :?C*:ta::{Backspace}{text}Ô
-return
+Return
 :?C*:ti::{Backspace}{text}Ü
-return
+Return
 :?C*:tI::{Backspace}{text}r
-return
+Return
 :?C*:t[::{Backspace}{text}r
-return
+Return
 :?C*:tu::{Backspace}{text}ÔáT
-return
+Return
 :?C*:tU::{Backspace}{text}ÔáÖ
-return
+Return
 :?C*:t'::{Backspace}{text}ÔáÖ
-return
+Return
 :?C*:te::{Backspace}{text}Ôî
-return
+Return
 :?C*:tE::{Backspace}{text}Ôû
-return
+Return
 :?C*:t;::{Backspace}{text}Ôû
-return
+Return
 :?C*:t\::{Backspace}{text}ÔîÕ
-return
+Return
 :?C*:to::{Backspace}{text}Ô=
-return
+Return
 :?C*:tO::{Backspace}{text}ÔÃ
-return
+Return
 :?C*:t]::{Backspace}{text}ÔÃ
-return
+Return
 :?C*:tV::{Backspace}{text}Ôê
-return
+Return
 :?C*:tF::{Backspace}{text}ÔY
-return
+Return
 ;
 ;
 ;		"T" Gunimtam
 ;
 ;
 :?C*:Ta::{Backspace 2}{text}<¸‘
-return
+Return
 :?C*:Ti::{Backspace 2}{text}~¸
-return
+Return
 :?C*:TI::{Backspace 2}{text}B¸
-return
+Return
 :?C*:T[::{Backspace 2}{text}B¸
-return
+Return
 :?C*:Tu::{Backspace 2}{text}<¸ŠT
-return
+Return
 :?C*:TU::{Backspace 2}{text}<¸ŠÖ
-return
+Return
 :?C*:T'::{Backspace 2}{text}<¸ŠÖ
-return
+Return
 :?C*:Te::{Backspace 2}{text}<¸î
-return
+Return
 :?C*:TE::{Backspace 2}{text}<¸û
-return
+Return
 :?C*:T;::{Backspace 2}{text}<¸û
-return
+Return
 :?C*:T\::{Backspace 2}{text}<¸îÕ
-return
+Return
 :?C*:To::{Backspace 2}{text}<¸=
-return
+Return
 :?C*:TO::{Backspace 2}{text}<¸Ã
-return
+Return
 :?C*:T]::{Backspace 2}{text}<¸Ã
-return
+Return
 :?C*:TV::{Backspace 2}{text}<¸ê
-return
+Return
 :?C*:TF::{Backspace 2}{text}<¸Ž
-return
+Return
 ;
 ;
 ;		"y" Gunimtam
 ;
 ;
 :?C*:ya::{Backspace 2}{text}jáÖ
-return
+Return
 :?C*:yi::{Backspace 2}{text}sTT
-return
+Return
 :?C*:yI::{Backspace 2}{text}sTÖ
-return
+Return
 :?C*:y[::{Backspace 2}{text}sTÖ
-return
+Return
 :?C*:yu::{Backspace 2}{text}jáTT
-return
+Return
 :?C*:yU::{Backspace 2}{text}jáTÖ
-return
+Return
 :?C*:y'::{Backspace 2}{text}jáTÖ
-return
+Return
 :?C*:ye::{Backspace 2}{text}jîT
-return
+Return
 :?C*:yE::{Backspace 2}{text}jûT
-return
+Return
 :?C*:y;::{Backspace 2}{text}jûT
-return
+Return
 :?C*:y\::{Backspace 2}{text}jî®T
-return
+Return
 :?C*:yo::{Backspace 2}{text}jîTT
-return
+Return
 :?C*:yO::{Backspace 2}{text}jîÖ
-return
+Return
 :?C*:y]::{Backspace 2}{text}jîÖ
-return
+Return
 :?C*:yV::{Backspace 2}{text}jáTò
-return
+Return
 :?C*:yF::{Backspace 2}{text}jYT
-return
+Return
 ;
 ;
 ;		"p" Gunimtam
 ;
 ;
 :?C*:pa::{Backspace}{text}bÍ
-return
+Return
 :?C*:pi::{Backspace}{text}|¾
-return
+Return
 :?C*:pI::{Backspace}{text}|Ó
-return
+Return
 :?C*:p[::{Backspace}{text}|Ó
-return
+Return
 :?C*:pu::{Backspace}{text}|ŸÚ
-return
+Return
 :?C*:pU::{Backspace}{text}|ŸP
-return
+Return
 :?C*:p'::{Backspace}{text}|ŸP
-return
+Return
 :?C*:pe::{Backspace}{text}™|
-return
+Return
 :?C*:pE::{Backspace}{text}|
-return
+Return
 :?C*:p;::{Backspace}{text}|
-return
+Return
 :?C*:p\::{Backspace}{text}™|Õ
-return
+Return
 :?C*:po::{Backspace}{text}bõ
-return
+Return
 :?C*:pO::{Backspace}{text}bþ
-return
+Return
 :?C*:p]::{Backspace}{text}bþ
-return
+Return
 :?C*:pV::{Backspace}{text}bå
-return
+Return
 :?C*:pF::{Backspace}{text}|t
-return
+Return
 ;
 ;
 ;		"P" Gunimtam
 ;
 ;
 :?C*:Pa::{Backspace 2}{text}b˜Í
-return
+Return
 :?C*:Pi::{Backspace 2}{text}|˜¾
-return
+Return
 :?C*:PI::{Backspace 2}{text}|˜Ó
-return
+Return
 :?C*:P[::{Backspace 2}{text}|˜Ó
-return
+Return
 :?C*:Pu::{Backspace 2}{text}|˜ŸÚ
-return
+Return
 :?C*:PU::{Backspace 2}{text}|˜ŸP
-return
+Return
 :?C*:P'::{Backspace 2}{text}|˜ŸP
-return
+Return
 :?C*:Pe::{Backspace 2}{text}™|˜
-return
+Return
 :?C*:PE::{Backspace 2}{text}|˜
-return
+Return
 :?C*:P;::{Backspace 2}{text}|˜
-return
+Return
 :?C*:P\::{Backspace 2}{text}™|˜Õ
-return
+Return
 :?C*:Po::{Backspace 2}{text}b˜õ
-return
+Return
 :?C*:PO::{Backspace 2}{text}b˜þ
-return
+Return
 :?C*:P]::{Backspace 2}{text}b˜þ
-return
+Return
 :?C*:PV::{Backspace 2}{text}b˜å
-return
+Return
 :?C*:PF::{Backspace 2}{text}|˜t
-return
+Return
 ;
 ;
 ;		"s" Gunimtam
 ;
 ;
 :?C*:sa::{Backspace}{text}kÍ
-return
+Return
 :?C*:si::{Backspace}{text}d¾
-return
+Return
 :?C*:sI::{Backspace}{text}dÓ
-return
+Return
 :?C*:s[::{Backspace}{text}dÓ
-return
+Return
 :?C*:su::{Backspace}{text}dŸT
-return
+Return
 :?C*:sU::{Backspace}{text}dŸÖ
-return
+Return
 :?C*:s'::{Backspace}{text}dŸÖ
-return
+Return
 :?C*:se::{Backspace}{text}™d
-return
+Return
 :?C*:sE::{Backspace}{text}d
-return
+Return
 :?C*:s;::{Backspace}{text}d
-return
+Return
 :?C*:s\::{Backspace}{text}™dÕ
-return
+Return
 :?C*:so::{Backspace}{text}kõ
-return
+Return
 :?C*:sO::{Backspace}{text}kþ
-return
+Return
 :?C*:s]::{Backspace}{text}kþ
-return
+Return
 :?C*:sV::{Backspace}{text}kå
-return
+Return
 :?C*:sF::{Backspace}{text}dt
-return
+Return
 ;
 ;
 ;		"S" Gunimtam
 ;
 ;
 :?C*:Sa::{Backspace}{text}Xæ
-return
+Return
 :?C*:Si::{Backspace}{text}¥
-return
+Return
 :?C*:SI::{Backspace}{text}o
-return
+Return
 :?C*:S[::{Backspace}{text}o
-return
+Return
 :?C*:Su::{Backspace}{text}Xø—
-return
+Return
 :?C*:SU::{Backspace}{text}XøS
-return
+Return
 :?C*:S'::{Backspace}{text}XøS
-return
+Return
 :?C*:Se::{Backspace}{text}Xè
-return
+Return
 :?C*:SE::{Backspace}{text}Xâ
-return
+Return
 :?C*:S;::{Backspace}{text}Xâ
-return
+Return
 :?C*:S\::{Backspace}{text}XèÕ
-return
+Return
 :?C*:So::{Backspace}{text}X¤
-return
+Return
 :?C*:SO::{Backspace}{text}XË
-return
+Return
 :?C*:S]::{Backspace}{text}XË
-return
+Return
 :?C*:SV::{Backspace}{text}X…
-return
+Return
 :?C*:SF::{Backspace}{text}XÙ
-return
+Return
 ;
 ;
 ;		"d" Gunimtam
 ;
 ;
 :?C*:da::{Backspace}{text}<‘
-return
+Return
 :?C*:di::{Backspace}{text}~
-return
+Return
 :?C*:dI::{Backspace}{text}B
-return
+Return
 :?C*:d[::{Backspace}{text}B
-return
+Return
 :?C*:du::{Backspace}{text}<ŠT
-return
+Return
 :?C*:dU::{Backspace}{text}<ŠÖ
-return
+Return
 :?C*:d'::{Backspace}{text}<ŠÖ
-return
+Return
 :?C*:de::{Backspace}{text}<î
-return
+Return
 :?C*:dE::{Backspace}{text}<û
-return
+Return
 :?C*:d;::{Backspace}{text}<û
-return
+Return
 :?C*:d\::{Backspace}{text}<îÕ
-return
+Return
 :?C*:do::{Backspace}{text}<=
-return
+Return
 :?C*:dO::{Backspace}{text}<Ã
-return
+Return
 :?C*:d]::{Backspace}{text}<Ã
-return
+Return
 :?C*:dV::{Backspace}{text}<ê
-return
+Return
 :?C*:dF::{Backspace}{text}<Ž
-return
+Return
 ;
 ;
 ;		"D" Gunimtam
 ;
 ;
 :?C*:Da::{Backspace 2}{text}<ó‘
-return
+Return
 :?C*:Di::{Backspace 2}{text}~ó
-return
+Return
 :?C*:DI::{Backspace 2}{text}Bó
-return
+Return
 :?C*:D[::{Backspace 2}{text}Bó
-return
+Return
 :?C*:Du::{Backspace 2}{text}<óŠT
-return
+Return
 :?C*:DU::{Backspace 2}{text}<óŠÖ
-return
+Return
 :?C*:D'::{Backspace 2}{text}<óŠÖ
-return
+Return
 :?C*:De::{Backspace 2}{text}<óî
-return
+Return
 :?C*:DE::{Backspace 2}{text}<óû
-return
+Return
 :?C*:D;::{Backspace 2}{text}<óû
-return
+Return
 :?C*:D\::{Backspace 2}{text}<óîÕ
-return
+Return
 :?C*:Do::{Backspace 2}{text}<ó=
-return
+Return
 :?C*:DO::{Backspace 2}{text}<óÃ
-return
+Return
 :?C*:D]::{Backspace 2}{text}<óÃ
-return
+Return
 :?C*:DV::{Backspace 2}{text}<óê
-return
+Return
 :?C*:DF::{Backspace 2}{text}<óŽ
-return
+Return
 ;
 ;
 ;		"g" Gunimtam
 ;
 ;
 :?C*:ga::{Backspace}{text}>±
-return
+Return
 :?C*:gi::{Backspace}{text}Ð
-return
+Return
 :?C*:gI::{Backspace}{text}^
-return
+Return
 :?C*:g[::{Backspace}{text}^
-return
+Return
 :?C*:gu::{Backspace}{text}>·T
-return
+Return
 :?C*:gU::{Backspace}{text}>·Ö
-return
+Return
 :?C*:g'::{Backspace}{text}>·Ö
-return
+Return
 :?C*:ge::{Backspace}{text}Â>
-return
+Return
 :?C*:gE::{Backspace}{text}¹>
-return
+Return
 :?C*:g;::{Backspace}{text}¹>
-return
+Return
 :?C*:g\::{Backspace}{text}Â>Õ
-return
+Return
 :?C*:go::{Backspace}{text}>=
-return
+Return
 :?C*:gO::{Backspace}{text}>Ã
-return
+Return
 :?C*:g]::{Backspace}{text}>Ã
-return
+Return
 :?C*:gV::{Backspace}{text}>š
-return
+Return
 :?C*:gF::{Backspace}{text}>´
-return
+Return
 ;
 ;
 ;		"G" Gunimtam
 ;
 ;
 :?C*:Ga::{Backspace 3}{text}|˜ŸÖ
-return
+Return
 :?C*:Gi::{Backspace 3}{text}|˜¾T
-return
+Return
 :?C*:GI::{Backspace 3}{text}|˜ÓT
-return
+Return
 :?C*:G[::{Backspace 3}{text}|˜ÓT
-return
+Return
 :?C*:Gu::{Backspace 3}{text}|˜ŸTT
-return
+Return
 :?C*:GU::{Backspace 3}{text}|˜ŸTÖ
-return
+Return
 :?C*:G'::{Backspace 3}{text}|˜ŸTÖ
-return
+Return
 :?C*:Ge::{Backspace 3}{text}™|˜T
-return
+Return
 :?C*:GE::{Backspace 3}{text}|˜T
-return
+Return
 :?C*:G;::{Backspace 3}{text}|˜T
-return
+Return
 :?C*:G\::{Backspace 3}{text}™|˜T®
-return
+Return
 :?C*:Go::{Backspace 3}{text}|˜ŸT¤
-return
+Return
 :?C*:GO::{Backspace 3}{text}|˜ŸTË
-return
+Return
 :?C*:G]::{Backspace 3}{text}|˜ŸTË
-return
+Return
 :?C*:GV::{Backspace 3}{text}|˜ŸTò
-return
+Return
 :?C*:GF::{Backspace 3}{text}|˜tT
-return
+Return
 ;
 ;
 ;		"h" Gunimtam
 ;
 ;
 :?C*:ha::{Backspace 2}{text}VŸä
-return
+Return
 :?C*:hi::{Backspace 2}{text}V¾²
-return
+Return
 :?C*:hI::{Backspace 2}{text}VÓ²
-return
+Return
 :?C*:h[::{Backspace 2}{text}VÓ²
-return
+Return
 :?C*:hu::{Backspace 2}{text}VŸQ
-return
+Return
 :?C*:hU::{Backspace 2}{text}VŸA
-return
+Return
 :?C*:h'::{Backspace 2}{text}VŸA
-return
+Return
 :?C*:he::{Backspace 2}{text}™V²
-return
+Return
 :?C*:hE::{Backspace 2}{text}V²
-return
+Return
 :?C*:h;::{Backspace 2}{text}V²
-return
+Return
 :?C*:h\::{Backspace 2}{text}™VÕ²
-return
+Return
 :?C*:ho::{Backspace 2}{text}™VQ
-return
+Return
 :?C*:hO::{Backspace 2}{text}™VA
-return
+Return
 :?C*:h]::{Backspace 2}{text}™VA
-return
+Return
 :?C*:hV::{Backspace 2}{text}VŸ²…
-return
+Return
 :?C*:hF::{Backspace 2}{text}Vt²
-return
+Return
 ;
 ;
 ;		"j" Gunimtam
 ;
 ;
 :?C*:ja::{text}C²
-return
+Return
 :?C*:ji::{text}›
-return
+Return
 :?C*:jI::{text}J
-return
+Return
 :?C*:j[::{text}J
-return
+Return
 :?C*:ju::{text}E
-return
+Return
 :?C*:jU::{text}p
-return
+Return
 :?C*:j'::{text}p
-return
+Return
 :?C*:je::{text}CÉ
-return
+Return
 :?C*:jE::{text}Cñ
-return
+Return
 :?C*:j;::{text}Cñ
-return
+Return
 :?C*:j\::{text}CÉÕ
-return
+Return
 :?C*:jo::{text}C¤
-return
+Return
 :?C*:jO::{text}CË
-return
+Return
 :?C*:j]::{text}CË
-return
+Return
 :?C*:jV::{text}C…
-return
+Return
 :?C*:jF::{text}CÙ
-return
+Return
 ;
 ;
 ;		"J" Gunimtam
 ;
 ;
 :?C*:Ja::{Backspace 2}{text}sÁa²
-return
+Return
 :?C*:Ji::{Backspace 2}{text}]a
-return
+Return
 :?C*:JI::{Backspace 2}{text}¯a
-return
+Return
 :?C*:J[::{Backspace 2}{text}¯a
-return
+Return
 :?C*:Ju::{Backspace 2}{text}sÁaT
-return
+Return
 :?C*:JU::{Backspace 2}{text}sÁaÖ
-return
+Return
 :?C*:J'::{Backspace 2}{text}sÁaÖ
-return
+Return
 :?C*:Je::{Backspace 2}{text}Âsa
-return
+Return
 :?C*:JE::{Backspace 2}{text}¹sa
-return
+Return
 :?C*:J;::{Backspace 2}{text}¹sa
-return
+Return
 :?C*:J\::{Backspace 2}{text}Âsa®
-return
+Return
 :?C*:Jo::{Backspace 2}{text}ÂsaT
-return
+Return
 :?C*:JO::{Backspace 2}{text}Âsa²
-return
+Return
 :?C*:J]::{Backspace 2}{text}Âsa²
-return
+Return
 :?C*:JV::{Backspace 2}{text}sÁaò
-return
+Return
 :?C*:JF::{Backspace 2}{text}sYa
-return
+Return
 ;
 ;
 ;		"k" Gunimtam
 ;
 ;
 :?C*:ka::{Backspace}{text}¿±
-return
+Return
 :?C*:ki::{Backspace}{text}¿ì
-return
+Return
 :?C*:kI::{Backspace}{text}¿¡
-return
+Return
 :?C*:k[::{Backspace}{text}¿¡
-return
+Return
 :?C*:ku::{Backspace}{text}Å£”
-return
+Return
 :?C*:kU::{Backspace}{text}Å£L
-return
+Return
 :?C*:k'::{Backspace}{text}Å£L
-return
+Return
 :?C*:ke::{Backspace}{text}Â¿
-return
+Return
 :?C*:kE::{Backspace}{text}¹¿
-return
+Return
 :?C*:k;::{Backspace}{text}¹¿
-return
+Return
 :?C*:k\::{Backspace}{text}Â¿Õ
-return
+Return
 :?C*:ko::{Backspace}{text}¿=
-return
+Return
 :?C*:kO::{Backspace}{text}¿Ã
-return
+Return
 :?C*:k]::{Backspace}{text}¿Ã
-return
+Return
 :?C*:kV::{Backspace}{text}¿š
-return
+Return
 :?C*:kF::{Backspace}{text}¿ù
-return
+Return
 ;
 ;
 ;		"K" Gunimtam
 ;
 ;
 :?C*:Ka::{text}U²
-return
+Return
 :?C*:Ki::{text}Ï
-return
+Return
 :?C*:KI::{text}F
-return
+Return
 :?C*:K[::{text}F
-return
+Return
 :?C*:Ku::{text}KT
-return
+Return
 :?C*:KU::{text}KÖ
-return
+Return
 :?C*:K'::{text}KÖ
-return
+Return
 :?C*:Ke::{text}UÉ
-return
+Return
 :?C*:KE::{text}Uñ
-return
+Return
 :?C*:K;::{text}Uñ
-return
+Return
 :?C*:K\::{text}UÉÕ
-return
+Return
 :?C*:Ko::{text}U¤
-return
+Return
 :?C*:KO::{text}UË
-return
+Return
 :?C*:K]::{text}UË
-return
+Return
 :?C*:KV::{text}U…
-return
+Return
 :?C*:KF::{text}UÙ
-return
+Return
 ;
 ;
 ;		"l" Gunimtam
 ;
 ;
 :?C*:la::{text}ý²
-return
+Return
 :?C*:li::{text}*
-return
+Return
 :?C*:lI::{text}©
-return
+Return
 :?C*:l[::{text}©
-return
+Return
 :?C*:lu::{text}\T
-return
+Return
 :?C*:lU::{text}\Ö
-return
+Return
 :?C*:l'::{text}\Ö
-return
+Return
 :?C*:le::{text}ýÉ
-return
+Return
 :?C*:lE::{text}ýñ
-return
+Return
 :?C*:l;::{text}ýñ
-return
+Return
 :?C*:l\::{text}ýÉÕ
-return
+Return
 :?C*:lo::{text}ý¤
-return
+Return
 :?C*:lO::{text}ýË
-return
+Return
 :?C*:l]::{text}ýË
-return
+Return
 :?C*:lV::{text}ý…
-return
+Return
 :?C*:lF::{text}ýÙ
-return
+Return
 ;
 ;
 ;		"L" Gunimtam
 ;
 ;
 :?C*:La::{Backspace}{text}Þ²
-return
+Return
 :?C*:Li::{Backspace}{text}[
-return
+Return
 :?C*:LI::{Backspace}{text}°
-return
+Return
 :?C*:L[::{Backspace}{text}°
-return
+Return
 :?C*:Lu::{Backspace}{text}Þø—
-return
+Return
 :?C*:LU::{Backspace}{text}ÞøS
-return
+Return
 :?C*:L'::{Backspace}{text}ÞøS
-return
+Return
 :?C*:Le::{Backspace}{text}Þè
-return
+Return
 :?C*:LE::{Backspace}{text}Þâ
-return
+Return
 :?C*:L;::{Backspace}{text}Þâ
-return
+Return
 :?C*:L\::{Backspace}{text}ÞèÕ
-return
+Return
 :?C*:Lo::{Backspace}{text}Þ¤
-return
+Return
 :?C*:LO::{Backspace}{text}ÞË
-return
+Return
 :?C*:L]::{Backspace}{text}ÞË
-return
+Return
 :?C*:LV::{Backspace}{text}Þ…
-return
+Return
 :?C*:LF::{Backspace}{text}ÞÙ
-return
+Return
 ;
 ;
 ;		"x" Gunimtam
 ;
 ;
 :?C*:xa::{Backspace}{text}cÍ
-return
+Return
 :?C*:xi::{Backspace}{text}w¾
-return
+Return
 :?C*:xI::{Backspace}{text}wÓ
-return
+Return
 :?C*:x[::{Backspace}{text}wÓ
-return
+Return
 :?C*:xu::{Backspace}{text}wŸ§
-return
+Return
 :?C*:xU::{Backspace}{text}wŸO
-return
+Return
 :?C*:x'::{Backspace}{text}wŸO
-return
+Return
 :?C*:xe::{Backspace}{text}™w
-return
+Return
 :?C*:xE::{Backspace}{text}w
-return
+Return
 :?C*:x;::{Backspace}{text}w
-return
+Return
 :?C*:x\::{Backspace}{text}™wÕ
-return
+Return
 :?C*:xo::{Backspace}{text}cõ
-return
+Return
 :?C*:xO::{Backspace}{text}cþ
-return
+Return
 :?C*:x]::{Backspace}{text}cþ
-return
+Return
 :?C*:xV::{Backspace}{text}cå
-return
+Return
 :?C*:xF::{Backspace}{text}wt
-return
+Return
 ;
 ;
 ;		"c" Gunimtam
 ;
 ;
 :?C*:ca::{Backspace}{text}#
-return
+Return
 :?C*:ci::{Backspace}{text}º
-return
+Return
 :?C*:cI::{Backspace}{text}N
-return
+Return
 :?C*:c[::{Backspace}{text}N
-return
+Return
 :?C*:cu::{Backspace}{text}#áT
-return
+Return
 :?C*:cU::{Backspace}{text}#áÖ
-return
+Return
 :?C*:c'::{Backspace}{text}#áÖ
-return
+Return
 :?C*:ce::{Backspace}{text}#î
-return
+Return
 :?C*:cE::{Backspace}{text}#û
-return
+Return
 :?C*:c;::{Backspace}{text}#û
-return
+Return
 :?C*:c\::{Backspace}{text}#îÕ
-return
+Return
 :?C*:co::{Backspace}{text}#=
-return
+Return
 :?C*:cO::{Backspace}{text}#Ã
-return
+Return
 :?C*:c]::{Backspace}{text}#Ã
-return
+Return
 :?C*:cV::{Backspace}{text}#ê
-return
+Return
 :?C*:cF::{Backspace}{text}#Y
-return
+Return
 ;
 ;
 ;		"C" Gunimtam
 ;
 ;
 :?C*:Ca::{Backspace 2}{text}#ó
-return
+Return
 :?C*:Ci::{Backspace 2}{text}ºó
-return
+Return
 :?C*:CI::{Backspace 2}{text}Nó
-return
+Return
 :?C*:C[::{Backspace 2}{text}Nó
-return
+Return
 :?C*:Cu::{Backspace 2}{text}#óáT
-return
+Return
 :?C*:CU::{Backspace 2}{text}#óáÖ
-return
+Return
 :?C*:C'::{Backspace 2}{text}#óáÖ
-return
+Return
 :?C*:Ce::{Backspace 2}{text}#óî
-return
+Return
 :?C*:CE::{Backspace 2}{text}#óû
-return
+Return
 :?C*:C;::{Backspace 2}{text}#óû
-return
+Return
 :?C*:C\::{Backspace 2}{text}#óîÕ
-return
+Return
 :?C*:Co::{Backspace 2}{text}#ó=
-return
+Return
 :?C*:CO::{Backspace 2}{text}#óÃ
-return
+Return
 :?C*:C]::{Backspace 2}{text}#óÃ
-return
+Return
 :?C*:CV::{Backspace 2}{text}#óê
-return
+Return
 :?C*:CF::{Backspace 2}{text}#óY
-return
+Return
 ;
 ;
 ;		"v" Gunimtam
 ;
 ;
 :?C*:va::{text}y
-return
+Return
 :?C*:vi::{text}$
-return
+Return
 :?C*:vI::{text}M
-return
+Return
 :?C*:v[::{text}M
-return
+Return
 :?C*:vu::{text}eÚ
-return
+Return
 :?C*:vU::{text}eP
-return
+Return
 :?C*:v'::{text}eP
-return
+Return
 
 :?C*:ve::{text}yî
-return
+Return
 :?C*:vE::{text}yû
-return
+Return
 :?C*:v;::{text}yû
-return
+Return
 :?C*:v\::{text}yîÕ
-return
+Return
 :?C*:vo::{text}y=
-return
+Return
 :?C*:vO::{text}yÃ
-return
+Return
 :?C*:v]::{text}yÃ
-return
+Return
 :?C*:vV::{text}yê
-return
+Return
 :?C*:vF::{text}yŽ
-return
+Return
 ;
 ;
 ;		"b" Gunimtam
 ;
 ;
 :?C*:ba::{text}u²
-return
+Return
 :?C*:bi::{text}_
-return
+Return
 :?C*:bI::{text};
-return
+Return
 :?C*:b[::{text};
-return
+Return
 :?C*:bu::{text}‹T
-return
+Return
 :?C*:bU::{text}‹Ö
-return
+Return
 :?C*:b'::{text}‹Ö
-return
+Return
 :?C*:be::{text}uÉ
-return
+Return
 :?C*:bE::{text}uñ
-return
+Return
 :?C*:b;::{text}uñ
-return
+Return
 :?C*:b\::{text}uÉÕ
-return
+Return
 :?C*:bo::{text}u¤
-return
+Return
 :?C*:bO::{text}uË
-return
+Return
 :?C*:b]::{text}uË
-return
+Return
 :?C*:bV::{text}u…
-return
+Return
 :?C*:bF::{text}uÙ
-return
+Return
 ;
 ;
 ;		"B" Gunimtam
 ;
 ;
 :?C*:Ba::{Backspace 2}{text}uó²
-return
+Return
 :?C*:Bi::{Backspace 2}{text}_ó
-return
+Return
 :?C*:BI::{Backspace 2}{text};ó
-return
+Return
 :?C*:B[::{Backspace 2}{text};ó
-return
+Return
 :?C*:Bu::{Backspace 2}{text}uó„T
-return
+Return
 :?C*:BU::{Backspace 2}{text}uó„Ö
-return
+Return
 :?C*:B'::{Backspace 2}{text}uó„Ö
-return
+Return
 :?C*:Be::{Backspace 2}{text}uóÉ
-return
+Return
 :?C*:BE::{Backspace 2}{text}uóñ
-return
+Return
 :?C*:B;::{Backspace 2}{text}uóñ
-return
+Return
 :?C*:B\::{Backspace 2}{text}uóÉÕ
-return
+Return
 :?C*:Bo::{Backspace 2}{text}uó¤
-return
+Return
 :?C*:BO::{Backspace 2}{text}uóË
-return
+Return
 :?C*:B]::{Backspace 2}{text}uóË
-return
+Return
 :?C*:BV::{Backspace 2}{text}uó…
-return
+Return
 :?C*:BF::{Backspace 2}{text}uóÙ
-return
+Return
 ;
 ;
 ;		"n" Gunimtam
 ;
 ;
 :?C*:na::{text}H
-return
+Return
 :?C*:ni::{text}“
-return
+Return
 :?C*:nI::{text}ú
-return
+Return
 :?C*:n[::{text}ú
-return
+Return
 :?C*:nu::{text}qT
-return
+Return
 :?C*:nU::{text}qÖ
-return
+Return
 :?C*:n'::{text}qÖ
-return
+Return
 :?C*:ne::{text}Hî
-return
+Return
 :?C*:nE::{text}Hû
-return
+Return
 :?C*:n;::{text}Hû
-return
+Return
 :?C*:n\::{text}HîÕ
-return
+Return
 :?C*:no::{text}H=
-return
+Return
 :?C*:nO::{text}HÃ
-return
+Return
 :?C*:n]::{text}HÃ
-return
+Return
 :?C*:nV::{text}Hê
-return
+Return
 :?C*:nF::{text}HŽ
-return
+Return
 ;
 ;
 ;		"N" Gunimtam
 ;
 ;
 :?C*:Na::{text}D²
-return
+Return
 :?C*:Ni::{text}Dì
-return
+Return
 :?C*:NI::{text}D¡
-return
+Return
 :?C*:N[::{text}D¡
-return
+Return
 :?C*:Nu::{text}DT
-return
+Return
 :?C*:NU::{text}DÖ
-return
+Return
 :?C*:N'::{text}DÖ
-return
+Return
 :?C*:Ne::{text}DÉ
-return
+Return
 :?C*:NE::{text}Dñ
-return
+Return
 :?C*:N;::{text}Dñ
-return
+Return
 :?C*:N\::{text}DÉ®
-return
+Return
 :?C*:No::{text}D=
-return
+Return
 :?C*:NO::{text}DÃ
-return
+Return
 :?C*:N]::{text}DÃ
-return
+Return
 :?C*:NV::{text}D…
-return
+Return
 :?C*:NF::{text}DY
-return
+Return
 ;
 ;
 ;		"m" Gunimtam
 ;
 ;
 :?C*:ma::{Backspace}{text}eÖ
-return
+Return
 :?C*:mi::{Backspace}{text}$T
-return
+Return
 :?C*:mI::{Backspace}{text}MT
-return
+Return
 :?C*:m[::{Backspace}{text}MT
-return
+Return
 :?C*:mu::{Backspace}{text}eTT
-return
+Return
 :?C*:mU::{Backspace}{text}eTÖ
-return
+Return
 :?C*:m'::{Backspace}{text}eTÖ
-return
+Return
 :?C*:me::{Backspace}{text}yîT
-return
+Return
 :?C*:mE::{Backspace}{text}yûT
-return
+Return
 :?C*:m;::{Backspace}{text}yûT
-return
+Return
 :?C*:m\::{Backspace}{text}yîT®
-return
+Return
 :?C*:mo::{Backspace}{text}yîTT
-return
+Return
 :?C*:mO::{Backspace}{text}yîÖ
-return
+Return
 :?C*:m]::{Backspace}{text}yîÖ
-return
+Return
 :?C*:mV::{Backspace}{text}eTò
-return
+Return
 :?C*:mF::{Backspace}{text}yŽT
-return
+Return
 ;
 ;
 ; """""""Misc""""""
@@ -1484,31 +1484,31 @@ return
 ;
 ;
 :?C*:fY::{text}ã
-return
+Return
 :?C*:Xi::{text}¿Œìˆ
-return
+Return
 :?C*:XI::{text}¿Œ¡ˆ
-return
+Return
 :?C*:Xu::{text}¿£Œ”
-return
+Return
 :?C*:XU::{text}¿£ŒL
-return
+Return
 :?C*:XE::{text}¹¿Œ
-return
+Return
 :?C*:Xe::{text}Â¿Œ
-return
+Return
 :?C*:X\::{text}Â¿ÕŒ
-return
+Return
 :?C*:XA::{text}¿Œ±
-return
+Return
 :?C*:XX::{text}¿£Œ
-return
+Return
 :?C*:Xo::{text}¿=
-return
+Return
 :?C*:XO::{text}¿Ã
-return
+Return
 :?C*:XV::{text}¿Œš
-return
+Return
 
 ;
 ;
@@ -1517,69 +1517,80 @@ return
 ;
 ;
 :?C*:fQ::{text}÷
-return
+Return
 :?C*:fq::{text}¼
-return
+Return
 :?C*:fw::{text}¦
-return
+Return
 :?C*:fr::{text}ç
-return
+Return
 :?C*:ft::{text}ï
-return
+Return
 :?C*:fT::{text}œ
-return
+Return
 :?C*:fy::{text}«
-return
+Return
 :?C*:fp::{text}Î
-return
+Return
 :?C*:fP::{text}ÎÛ
-return
+Return
 :?C*:fs::{text}à
-return
+Return
 :?C*:fS::{text}ô
-return
+Return
 :?C*:fd::{text}Ý
-return
+Return
 :?C*:fD::{text}Æ
-return
+Return
 :?C*:fg::{text}Z
-return
+Return
 :?C*:fG::{text}é
-return
+Return
 :?C*:fh::{text}½
-return
+Return
 :?C*:fj::{text}¨
-return
+Return
 :?C*:fk::{text}Ø
-return
+Return
 :?C*:fK::{text}‰
-return
+Return
 :?C*:fl::{text}¢
-return
+Return
 :?C*:fL::{text}ß
-return
+Return
 :?C*:fx::{text}ü
-return
+Return
 :?C*:fc::{text}Ì
-return
+Return
 :?C*:fC::{text}ÌÛ
-return
+Return
 :?C*:fv::{text}Ç
-return
+Return
 :?C*:fb::{text}Ò
-return
+Return
 :?C*:fB::{text}ÒÛ
-return
+Return
 :?C*:fn::{text}•
-return
+Return
 :?C*:fN::{text}’
-return
+Return
 :?C*:fm::{text}ˆ
-return
+Return
 
 ExitButton:
 ExitApp
 Return
+
+;
+;
+;		"Other Program Shortcuts"
+;
+;
+; PageMaker PAN Functionality
+if WinActive("ahk_exe Pm70.exe") {
+MButton::!LButton
+return
+}
 
 
 ;
@@ -1589,9 +1600,10 @@ Return
 
 F11::
 suspend, toggle
-return
+Return
 !a::
 Reload
-return
+Return
 !q::
 ExitApp
+Return
