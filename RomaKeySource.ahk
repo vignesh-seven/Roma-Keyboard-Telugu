@@ -16,6 +16,15 @@ Return
 Return
 ;+Enter::
 
+global char_count := 1
+
+~Backspace::
+If (char_count > 0) {
+    bs_count := char_count - 1
+    send {Backspace %bs_count%}
+}
+char_count := 0
+return
 ;
 ;
 ;      Letters - Basic
@@ -24,16 +33,29 @@ Return
 ;
 q::
 send {text}f
+chars := "f"
+char_count := StrLen(chars)
+
+; MsgBox %char_count%
 Return
 
 +q::
 send {text}sÄÁ
+chars := "sÄÁ"
+char_count := StrLen(chars)
+; MsgBox %char_count%
 Return
 w::
 send {text}&á
+chars := "&á"
+char_count := StrLen(chars)
+; MsgBox %char_count%
 Return
 +w::
 send {text}&óƒ
+chars := "&óƒ"
+char_count := StrLen(chars)
+; MsgBox %char_count%
 Return
 e::
 send {text}m
@@ -1580,6 +1602,8 @@ Return
 ExitButton:
 ExitApp
 Return
+
+
 
 ;
 ;
